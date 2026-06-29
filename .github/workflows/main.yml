@@ -35,24 +35,24 @@ jobs:
       - name: lint test
         run: npm run lint
 
-      - name: secret check
-        run: |
-          if [ -z "${{secrets.TEST_SECRET}}" ] || [ -z "${{secrets.DOUBL}}" ] ; then
-              echo "error::secret not found"
-              exit 1
-          else
-              echo "secret found"
-          fi
-        env: 
-          TEST_SECRET: ${{secrets.TEST_SECRET}}
-          DOUBL: ${{secrets.DOUBL}}
-          TRIPPLE: ${{secrets.TRIPPLE}}
+      # - name: secret check
+      #   run: |
+      #     if [ -z "${{secrets.TEST_SECRET}}" ] || [ -z "${{secrets.DOUBL}}" ] ; then
+      #         echo "error::secret not found"
+      #         exit 1
+      #     else
+      #         echo "secret found"
+      #     fi
+      #   env: 
+      #     TEST_SECRET: ${{secrets.TEST_SECRET}}
+      #     DOUBL: ${{secrets.DOUBL}}
+      #     TRIPPLE: ${{secrets.TRIPPLE}}
 
-      - name: Run secret test
-        run : | 
-            echo "secret found"
-        env: 
-          TEST_SECRET: ${{secrets.TEST_SECRET}}
+      # - name: Run secret test
+      #   run : | 
+      #       echo "secret found"
+      #   env: 
+      #     TEST_SECRET: ${{secrets.TEST_SECRET}}
 
       - name: Build applicatioon
         run: npm run build

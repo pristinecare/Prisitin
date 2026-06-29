@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,10 +12,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.2fr_1fr_1fr_1.5fr] gap-12 mt-10 mb-10">
           {/* Column 1: Logo and description */}
           <div className="flex flex-col">
-            <Link href="/" className="mb-5 inline-block">
-              <span className="font-display font-semibold text-2xl text-white tracking-wide">
-                PRISTINE <span className="text-antique-gold">CARE</span>
-              </span>
+            <Link href="/" className="mb-4 inline-block">
+              <Image
+                src="/logo.png"
+                alt="Pristine Care Laundry Logo"
+                width={140}
+                height={70}
+                style={{ height: "auto" }}
+                className="object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-white/70 text-sm leading-relaxed m-0 max-w-sm">
               Premium laundry, dry cleaning, linen management and hygiene solutions for institutions demanding the highest standards of reliability.

@@ -52,13 +52,13 @@ export default function Home() {
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <Link
                   href="/contact"
-                  className="px-7 py-3.5 text-xs font-body font-semibold tracking-wider uppercase bg-antique-gold text-white border border-antique-gold hover:bg-transparent hover:text-antique-gold transition-all duration-300 shadow-[0_4px_16px_rgba(234,88,12,0.3)]"
+                  className="px-7 py-3.5 text-xs font-body font-semibold tracking-wider uppercase bg-near-black text-warm-off-white border border-near-black hover:bg-transparent hover:text-near-black transition-all duration-300 shadow-[0_4px_16px_rgba(27,43,75,0.25)]"
                 >
                   Request a Proposal
                 </Link>
                 <Link
                   href="/contact?service=consultation"
-                  className="px-7 py-3.5 text-xs font-body font-semibold tracking-wider uppercase bg-transparent text-near-black border border-muted-stone hover:border-antique-gold hover:text-antique-gold transition-all duration-300"
+                  className="px-7 py-3.5 text-xs font-body font-semibold tracking-wider uppercase bg-transparent text-near-black border border-antique-gold hover:bg-antique-gold hover:text-white transition-all duration-300"
                 >
                   Schedule a Consultation
                 </Link>
@@ -342,7 +342,7 @@ export default function Home() {
               </p>
               <Link
                 href="/contact"
-                className="px-8 py-4 text-xs font-body font-semibold tracking-wider uppercase bg-antique-gold text-white border border-antique-gold hover:bg-transparent hover:text-antique-gold transition-all duration-300 inline-block min-w-[200px] shadow-[0_4px_16px_rgba(234,88,12,0.25)]"
+                className="px-8 py-4 text-xs font-body font-semibold tracking-wider uppercase bg-near-black text-warm-off-white border border-near-black hover:bg-transparent hover:text-near-black transition-all duration-300 inline-block min-w-[200px] shadow-[0_4px_16px_rgba(27,43,75,0.2)]"
               >
                 Request a Proposal
               </Link>
