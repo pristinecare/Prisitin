@@ -43,7 +43,7 @@ export default function Header() {
           {/* Logo — padded from the top gold rule */}
           <Link href="/" className="flex-shrink-0 group pt-1">
             <Image
-              src="/logo.png"
+              src="/logo_1.png"
               alt="Pristine Care Laundry & Dry Cleaning"
               width={100}
               height={70}
@@ -150,7 +150,7 @@ export default function Header() {
         {/* Mobile header bar with logo + close */}
         <div className="flex items-center justify-between px-6 h-[88px] border-b border-muted-stone flex-shrink-0">
           <Image
-            src="/logo.png"
+            src="/logo_1.png"
             alt="Pristine Care"
             width={140}
             height={70}
