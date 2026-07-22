@@ -57,18 +57,9 @@ export default function ContactPage() {
                     Office Address
                   </h4>
                   <p className="font-body font-light text-sm text-charcoal leading-relaxed">
-                    Plot No. 74/74A/1, Block F-2, MIDC<br />
-                    Pimpri Colony, Pimpri-Chinchwad<br />
-                    Maharashtra – 411018
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-body font-semibold text-xs tracking-wider uppercase text-near-black mb-1.5">
-                    GST Number
-                  </h4>
-                  <p className="font-body font-light text-sm text-charcoal leading-relaxed">
-                    27ABJFP4261C1ZB
+                    Plot No.36, Block F-2, Telco Welfare Society Road<br />
+                    Near Yashwant Nagar Pimpri<br />
+                    Pune, Maharashtra – 411018
                   </p>
                 </div>
 
@@ -77,16 +68,7 @@ export default function ContactPage() {
                     Electronic Mail
                   </h4>
                   <p className="font-body font-light text-sm text-charcoal leading-relaxed">
-                    info@pristinecare.in
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-body font-semibold text-xs tracking-wider uppercase text-near-black mb-1.5">
-                    GST Number
-                  </h4>
-                  <p className="font-body font-light text-sm text-charcoal leading-relaxed">
-                    27ABJFP4261C1ZB
+                    office.pristinecare@gmail.com
                   </p>
                 </div>
               </div>
