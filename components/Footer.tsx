@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-near-black text-white pt-16 pb-10">
+    <footer className="bg-[#07182B] text-white pt-16 pb-10">
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Thin Gold Rule above footer columns */}
         <hr className="border-t border-antique-gold/30 w-full" />

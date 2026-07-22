@@ -43,7 +43,7 @@ export default function Header() {
           {/* Logo — padded from the top gold rule */}
           <Link href="/" className="flex-shrink-0 group pt-1">
             <Image
-              src="/logo.png"
+              src="/logo_1.png"
               alt="Pristine Care Laundry & Dry Cleaning"
               width={100}
               height={70}
@@ -85,7 +85,7 @@ export default function Header() {
 
             <Link
               href="/contact?service=proposal"
-              className="group/cta inline-flex items-center gap-2 px-6 py-3 text-[11px] font-body font-semibold tracking-[0.16em] uppercase bg-near-black text-warm-off-white border border-near-black transition-all duration-300 hover:bg-bright-gold hover:border-bright-gold hover:text-white"
+              className="group/cta inline-flex items-center gap-2 px-6 py-3 text-[11px] font-body font-semibold tracking-[0.16em] uppercase bg-[#162A40] text-warm-off-white border border-[#162A40] transition-all duration-300 hover:bg-bright-gold hover:border-bright-gold hover:text-white"
             >
               Request a Proposal
               {/* Arrow icon */}
@@ -150,7 +150,7 @@ export default function Header() {
         {/* Mobile header bar with logo + close */}
         <div className="flex items-center justify-between px-6 h-[88px] border-b border-muted-stone flex-shrink-0">
           <Image
-            src="/logo.png"
+            src="/logo_1.png"
             alt="Pristine Care"
             width={140}
             height={70}
@@ -188,7 +188,7 @@ export default function Header() {
 
           <Link
             href="/contact?service=proposal"
-            className="mt-8 w-full max-w-[320px] flex items-center justify-center gap-2 px-6 py-4 text-[11px] font-body font-semibold tracking-[0.16em] uppercase bg-near-black text-warm-off-white border border-near-black hover:bg-bright-gold hover:border-bright-gold hover:text-white transition-all duration-300"
+            className="mt-8 w-full max-w-[320px] flex items-center justify-center gap-2 px-6 py-4 text-[11px] font-body font-semibold tracking-[0.16em] uppercase bg-[#162A40] text-warm-off-white border border-[#162A40] hover:bg-bright-gold hover:border-bright-gold hover:text-white transition-all duration-300"
             onClick={handleLinkClick}
           >
             Request a Proposal

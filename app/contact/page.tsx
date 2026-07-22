@@ -12,7 +12,7 @@ export default function ContactPage() {
   return (
     <div className="w-full">
       {/* Hero Banner */}
-      <section className="relative h-[350px] flex items-center text-white bg-near-black">
+      <section className="relative h-[350px] flex items-center text-white bg-[#07182B]">
         <div className="absolute inset-0 z-0">
           <Image
             src="/hero_linen.png"
@@ -22,7 +22,7 @@ export default function ContactPage() {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-near-black/75 z-10"></div>
+          <div className="absolute inset-0 bg-[#07182B]/75 z-10"></div>
         </div>
         <div className="relative z-20 max-w-[1200px] w-full mx-auto px-6">
           <span className="font-body font-medium text-xs tracking-[0.12em] text-antique-gold uppercase mb-2 block">
@@ -78,6 +78,15 @@ export default function ContactPage() {
                   </h4>
                   <p className="font-body font-light text-sm text-charcoal leading-relaxed">
                     info@pristinecare.in
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-body font-semibold text-xs tracking-wider uppercase text-near-black mb-1.5">
+                    GST Number
+                  </h4>
+                  <p className="font-body font-light text-sm text-charcoal leading-relaxed">
+                    27ABJFP4261C1ZB
                   </p>
                 </div>
               </div>
