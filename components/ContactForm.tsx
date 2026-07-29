@@ -107,7 +107,7 @@ export default function ContactForm() {
     // All fields are sent directly as individual query params and JSON body.
 
     try {
-      const scriptUrl = ""; //script url
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbyHILcSMPjMcSXFG67fubBZWDtsmUWEA2im1PuQYWJmxaJ-zafDY2vCMrA52BYL-nIr/exec"; //script url
 
       // We encode parameters as both URLSearchParams (for e.parameter query params)
       // and JSON (for e.postData.contents) to support any style of Google Apps Script setup.
