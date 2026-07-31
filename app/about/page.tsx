@@ -72,24 +72,24 @@ export default function AboutPage() {
 
   const timelineItems = [
     {
-      year: "2018",
-      title: "Facility Foundation",
-      desc: "Established our central laundry facility in Gurugram, equipped with initial high-capacity tunnel washers."
-    },
-    {
-      year: "2020",
-      title: "Healthcare Standardization",
-      desc: "Implemented hospital-grade biological barriers and earned complete hygiene audit certifications."
-    },
-    {
-      year: "2022",
-      title: "Logistics Optimization",
-      desc: "Acquired a private delivery fleet and launched real-time inventory tracking for hospitality clients."
-    },
-    {
       year: "2024",
-      title: "Sustainability Integration",
-      desc: "Deployed water reclamation loops, achieving a 40% reduction in fresh water intake per processed cycle."
+      title: "Foundation & Vision",
+      desc: "Founded Pristine Care with a vision to redefine commercial laundry services through uncompromising hygiene, precision, and operational excellence."
+    },
+    {
+      year: "2025",
+      title: "Building the Infrastructure",
+      desc: "Established a state-of-the-art production facility featuring industrial-grade equipment, HACCP-aligned workflows, and standardized quality assurance protocols."
+    },
+    {
+      year: "2026",
+      title: "Trusted Operations",
+      desc: "Launched commercial operations, delivering consistent, hygienic, and reliable laundry solutions for hospitality, healthcare, corporate, and industrial clients."
+    },
+    {
+      year: "2026 (Present)",
+      title: "Driving Excellence",
+      desc: "Advancing operational performance through continuous process optimization, preventive maintenance, sustainable practices, and technology-enabled quality management."
     }
   ];
 
